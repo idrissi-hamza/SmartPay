@@ -4,6 +4,7 @@ import FeatureCard from '../Home/components/FeatureCard';
 import FeaturesSection from '../Home/components/FeaturesSection';
 
 import TestimonySection from '../Home/components/TestimonySection';
+import MoreFeaturesSection from '../Home/components/MoreFeaturesSection';
 const features = [
   {
     id: '1',
@@ -45,6 +46,7 @@ const LandingPage = () => {
       <FeaturesSection />
 
       <TestimonySection />
+      <MoreFeaturesSection />
     </div>
   );
 };
