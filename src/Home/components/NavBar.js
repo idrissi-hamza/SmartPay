@@ -9,8 +9,15 @@ const NavBar = () => {
             <div class="column-inner dorik-column-oi632mxj  1/1">
               <div class="dorik-navbar--wrapper dorik-nav-ynq9x73v-wrapper ">
                 <div class="dorik-navbar dorik-nav-ynq9x73v ">
-                  <div class="dorik-navbar--brand logo">
-                   SmartPay
+                  <div class="dorik-navbar--brand">
+                    <a>
+                      {' '}
+                      <img
+                        src="./newspaper.png"
+                        alt="logo"
+                        width="80px"
+                      />
+                    </a>
                   </div>
                   <button
                     class="dorik-navbar--toggle"

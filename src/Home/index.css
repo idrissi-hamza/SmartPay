@@ -1367,6 +1367,7 @@ code {
 }
 .dorik-navbar--brand {
   margin-right: 30px;
+  width: 60px;
 }
 .dorik-navbar--toggle {
   padding: 8px 12px;
@@ -3487,7 +3488,7 @@ h6 {
 }
 
 .logo {
-  font-size: larger; 
+  font-size: larger;
   color: var(--color-1);
   font-weight: bolder;
 }

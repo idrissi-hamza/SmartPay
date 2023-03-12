@@ -7,8 +7,17 @@ const Footer = () => {
         <div class="dorik-row-akxr36qv  flex">
           <div class="col-lg-1/3 col-md-1/3 ">
             <div class="column-inner dorik-column-yk0goc70  1/3">
-              <div class="dorik-wrapper dorik-image-1kgneh0a-wrapper logo ">
-                SmartPay
+              <div class="dorik-wrapper dorik-image-1kgneh0a-wrapper  ">
+                <div class="dorik-navbar--brand">
+                  <a>
+                    {' '}
+                    <img
+                      src="./newspaper.png"
+                      alt="logo"
+                      width="80px"
+                    />
+                  </a>
+                </div>
               </div>
             </div>
           </div>
