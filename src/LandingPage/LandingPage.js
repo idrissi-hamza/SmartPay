@@ -8,6 +8,7 @@ import MoreFeaturesSection from '../Home/components/MoreFeaturesSection';
 import Prices from '../Home/components/Prices';
 import Team from '../Home/components/Team';
 import Cta from '../Home/components/Cta';
+import Footer from '../Home/components/Footer';
 const features = [
   {
     id: '1',
@@ -28,7 +29,7 @@ const features = [
 ];
 const LandingPage = () => {
   return (
-    <div>
+    <>
       <NavBar />
 
       <section
@@ -53,7 +54,8 @@ const LandingPage = () => {
       <Prices />
       <Team />
       <Cta />
-    </div>
+      <Footer />
+    </>
   );
 };
 
