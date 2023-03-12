@@ -2,7 +2,8 @@ import React from 'react';
 import NavBar from '../Home/components/NavBar';
 import FeatureCard from '../Home/components/FeatureCard';
 import FeaturesSection from '../Home/components/FeaturesSection';
-import SimpleSlider from '../Home/components/Slider';
+
+import TestimonySection from '../Home/components/TestimonySection';
 const features = [
   {
     id: '1',
@@ -43,20 +44,7 @@ const LandingPage = () => {
       </section>
       <FeaturesSection />
 
-      <section
-        class="dorik-section dorik-section-dhtwaxqf "
-        id="testimonials"
-      >
-        <div class="container">
-          <div class="dorik-row-dcy8zshc  flex">
-            <div class="col-lg-1/1 ">
-              <div class="column-inner dorik-column-ksllkmnu  1/1">
-                <SimpleSlider />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <TestimonySection />
     </div>
   );
 };
