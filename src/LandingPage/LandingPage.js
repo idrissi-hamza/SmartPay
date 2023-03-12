@@ -7,6 +7,7 @@ import TestimonySection from '../Home/components/TestimonySection';
 import MoreFeaturesSection from '../Home/components/MoreFeaturesSection';
 import Prices from '../Home/components/Prices';
 import Team from '../Home/components/Team';
+import Cta from '../Home/components/Cta';
 const features = [
   {
     id: '1',
@@ -51,6 +52,7 @@ const LandingPage = () => {
       <MoreFeaturesSection />
       <Prices />
       <Team />
+      <Cta />
     </div>
   );
 };
